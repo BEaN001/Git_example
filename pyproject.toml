@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "git_example"
+version = "0.1.0"
+description = ""
+authors = ["by17812 <binyu17812@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^1.16"
+pandas = "^0.24.1"
+tensorflow = "^1.13"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
